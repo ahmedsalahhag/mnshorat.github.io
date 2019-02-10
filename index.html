@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+        if($(window).width() < 1024){
+$(function() {
+ jQuery.fx.off = true;
+
+
+});
+}
+$(document).ready(function() {
+        $(window).scroll( function(){
+            $('.rotition').each( function(i){
+                
+                var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                
+                if( bottom_of_window > bottom_of_element ){
+                    $(this).animate({'opacity':'1','margin-left':'0px'},2000);
+                }
+                
+            });
+        });
+    });
+$(document).ready(function() {
+   
+   $(window).scroll( function(){
+       $('.fadeinleft').each( function(i){
+           
+           var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+           var bottom_of_window = $(window).scrollTop() + $(window).height();
+           
+           if( bottom_of_window > bottom_of_element ){
+               $(this).animate({'opacity':'1','margin-left':'0px'},1000);
+           }
+           
+       });
+   });
+
+});
+
+$(document).ready(function() {
+$(window).scroll( function(){
+   $('.fadein').each( function(i){
+       
+       var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+       var bottom_of_window = $(window).scrollTop() + $(window).height();
+       
+       if( bottom_of_window > bottom_of_element ){
+           $(this).animate({'opacity':'1'},2000);
+       }
+       
+   });
+});
+});
+
+
+</script>
+        <style>
+               @import url('https://fonts.googleapis.com/css?family=Cairo|Lalezar|Quicksand');
+
+                body, html {
+                  height: 100%;
+                  margin: 0;
+                }
+                @media only screen and (max-width: 900px) {
+
+body , html {
+    overflow-x: hidden !important; 
+    position: relative; 
+
+}
+}
+@media only screen and (max-width: 900px) {
+            .fadeinleft{
+                opacity:1 !important;
+                margin-left:0 !important;
+            } 
+           }
+           @media only screen and (max-width: 900px) {
+            .fadein{
+                opacity:1 !important;
+                
+            } 
+           }
+           @media only screen and (max-width: 900px) {
+            .rotition{
+                opacity:1 !important;
+                margin-left:0 !important;
+            } 
+           }
+           @media only screen and (max-width: 1200px) {
+            .aaaa{
+font-size:45px !important;   
+
+            } 
+           }
+           @media only screen and (max-width: 1024px) {
+
+.hero-text{
+    top: 40% !important;
+  left: 3% !important;
+  right:3% !important;
+  transform: translate(0%,0%) !important;
+}
+}
+        .fadein {
+    opacity:0;
+}
+.fadeinleft {
+opacity:0;
+margin-left:-300px;
+max-width:100%;
+}
+                .bg {
+                  /* The image used */
+                  background-image: url("cover.jpg");
+                
+                  /* Full height */
+                  height: 100%; 
+                
+                  /* Center and scale the image nicely */
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                }
+                .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.rotition{
+        opacity:0;
+margin-left:-300px;
+max-width:100%;
+      }
+     
+      .rotition:hover{
+-ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari 3-8 */
+  transform: rotate(360deg);
+  transition-duration: 1.5s;
+}
+    
+                </style>
+  <title>مدن السودان تنتفض</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="icon.jpg" rel="icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:gainsboro">
+   
+    <div class="bg" style="position: relative;top:0px;" >
+    <div class="hero-text">
+        <h1 style="font-size:65px;font-family: Lalezar" class="aaaa">   توعية الشارع واجب وطني</h1>
+        <h1 style="font-size:65px;font-family: Lalezar" class="aaaa">وضماناً لإستمرارية الثورة</h1>
+
+      </div>
+  </div>
+ <div class="container" style="background-color:gainsboro" dir="rtl">
+<div class="row" style="padding-left:3%;padding-right:3%;padding-top:5%;padding-bottom:5%;" dir="rtl">
+<div class="col-sm-6 fadeinleft" style="padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;z-index: 999;background-color:whitesmoke;width:100%;box-shadow: 10px 10px 8px rgb(85, 85, 85);
+-webkit-box-shadow: 10px 10px 8px rgb(85, 85, 85);
+-moz-box-shadow: 10px 10px 8px rgb(85, 85, 85);  display: block;">
+<h4 dir="rtl" style="font-family:Lalezar;text-align: right " class="fadein">
+   " امتلأ الشعب بشعور الحقد الإيجابي. عندما يأتي الحقد على الطغاة وسط معمعان المعركة الثورية، يتحوّر، يضحي ثباتاً عند اللقاء، 
+    يصبح وسواساً محموماً للعمل،  يثمر الأمل،
+   ويغدو عزيمة بتّارة، وينتج صنفاً من الحماسة لا ينطفئ، إنه حتمية النصر. لقد حسمت الجماهير اليوم كل ميل متردد داخلها وانتهى الخوف من الهزيمة..."
+   <br>
+   
+</h4>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+<div class="container" style="background-color:gainsboro" dir="ltr">
+    <div class="row" style="padding-left:3%;padding-right:3%;padding-top:5%;padding-bottom:5%;" dir="ltr">
+    <div class="col-sm-6 fadeinleft" style="padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;z-index: 999;background-color:whitesmoke;width:100%;box-shadow: 10px 10px 8px rgb(85, 85, 85);
+    -webkit-box-shadow: 10px 10px 8px rgb(85, 85, 85);
+    -moz-box-shadow: 10px 10px 8px rgb(85, 85, 85);  display: block;">
+    <h4 dir="rtl" style="font-family:Lalezar;text-align: right " class="fadein">
+      - "نحن مفروض ننتقل من انو نزيد عددنا ، لي تعبئة نوعية ، نضيف لصفوفنا الناس الأكثر حوجة للثورة والناس البجد سياسات الحكومة التقشفية بتأثر عليهم ، هنا بنكون هاجمنا الحكومة في قلبها
+       "
+       <br>
+      - "لازم نستهدف فئات المجتمع اللسا ماشاركت في الثورة
+       "
+       <br>
+      - "ولست مهزوما ما دمت تقاوم"
+       <br>
+    
+    </h4>
+    
+    
+    </div>
+    
+    
+    </div>
+    
+    
+    </div>
+
+
+    <div class="container" style="background-color:gainsboro" dir="rtl">
+        <div class="row" style="padding-left:3%;padding-right:3%;padding-top:5%;padding-bottom:5%;" dir="rtl">
+        <div class="col-sm-6 fadeinleft" style="padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;z-index: 999;background-color:whitesmoke;width:100%;box-shadow: 10px 10px 8px rgb(85, 85, 85);
+        -webkit-box-shadow: 10px 10px 8px rgb(85, 85, 85);
+        -moz-box-shadow: 10px 10px 8px rgb(85, 85, 85);  display: block;">
+        <h4 dir="rtl" style="font-family:Lalezar;text-align: right " class="fadein">
+فكرتنا انو ننزل ليكم منشورات بصيغة pdf عشان تمشو تطبعوها وتوزعوها لفئات معينة من المجتمع ، الفئات اللسا ماوصلها المد الثوري ، عشان يشاركونا في الثورة والإضراب 
+، حننزل ليكم منشورات مختلفة لكل فئة ، لإختلاف نوعية الخطاب المقدم لكل فئة ومفروض برضو تشاركونا بمنشورات وأفكار جديدة بس رسلوا في الايميل التحت.
+        <br>
+        
+        </h4>
+        
+        
+        </div>
+        
+        
+        </div>
+        
+        
+        </div>
+
+
+
+
+
+    <div class="container" style="background-color:gainsboro" dir="ltr">
+        <div class="row" style="padding-left:3%;padding-right:3%;padding-top:5%;padding-bottom:5%;" dir="ltr">
+        <div class="col-sm-12" style="padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;z-index: 999;background-color:whitesmoke;width:100%;box-shadow: 10px 10px 8px rgb(85, 85, 85);
+        -webkit-box-shadow: 10px 10px 8px rgb(85, 85, 85);
+        -moz-box-shadow: 10px 10px 8px rgb(85, 85, 85);  display: block;">
+        <h1 dir="rtl" style="font-family:Lalezar;text-align: center " class="fadein">
+        نسخة مبدئية للمنشورات
+        </h1>
+        <div style="padding-left:5%;padding-right:5%;padding-top:5%;padding-bottom:5%;text-align: center">
+          <div style="padding-left:3%;display: inline-block;padding-top:3%">
+            <a href="manshor1.pdf" style="color: black">
+        <img src="pdf.png" style="width:50px;">
+        <span style="font-family:cairo">
+
+        
+         الأحياء الطرفية وصغار الكسبة
+      </span>
+    </a>
+    </div>
+    <div style="padding-left:3%;display: inline-block;padding-top:3%">
+<a href="manshor2.pdf" style="color: black">
+      <img src="pdf.png" style="width:50px">
+        <span style="font-family:cairo">
+
+        
+         الأحياء وسط العاصمة
+      </span>
+    </a>
+      </div>
+    
+    </div>
+        </div>
+        
+        
+        </div>
+        
+        
+        </div>
+        <div class="container-fluid bg-dark" id="sec7"  >
+
+<div class="container">
+        <h3 style="font-family: cairo;text-align:center;color:whitesmoke;padding-top:10%">   ممكن ترسلو لينا منشورات في الايميل التحت دا عشان ننشرا هنا :)
+        <br>
+        <br>
+        اعملو حسابكم وانتو بتوزعو عشان ما يقبضوكم :)
+        </h3>
+
+
+<div class="row" style="padding-bottom: 5%">
+        
+           <div class="col-sm-6" style="padding-top:5%;text-align: left">
+<p style="font-family: 'Trebuchet MS';color:whitesmoke">
+</p>
+
+    <form action="">
+      <textarea id="bigOne" name="message" rows="10" cols="40">تعليقاتكم.....</textarea>
+      <br>
+      <button type="submit" class="btn btn-secondary">Send</button>
+    </form>
+</div>
+<div class="col-sm-6" style="padding-top:5%;text-align: center">
+    <div style="padding-top:25%">
+   
+    <a href="mailto:thawra206@gmail.com 
+    " style="color:rgb(49, 49, 49)">
+
+   
+<img src="gmail.png" style="width:60px;" class="rotition">
+</a>
+<br>
+</div>
+<h3 style="color:aliceblue">
+thawra206@gmail.com
+</h3>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+  
+
+           </div>
+           <div style="text-align:center;color:gainsboro">
+
+            &copy;  2019 THAWRA
+
+           </div>
+    </body>
+</html>
